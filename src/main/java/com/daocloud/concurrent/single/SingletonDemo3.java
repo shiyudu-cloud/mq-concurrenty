@@ -20,6 +20,9 @@ public class SingletonDemo3 {
        if(ObjectUtils.isEmpty(singletonDemo3)){
             synchronized (this){
                 if(ObjectUtils.isEmpty(singletonDemo3)){
+                    //1.分配对象内存空间
+                    //2.初始化对象
+                    //3.设置instance 指向分配的内存
                     singletonDemo3 = new SingletonDemo3();
                 }
             }

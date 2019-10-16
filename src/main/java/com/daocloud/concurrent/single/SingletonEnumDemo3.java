@@ -5,7 +5,7 @@ import org.springframework.util.ObjectUtils;
 
 /**
  *
- * 枚举模式
+ * 枚举模式-实现单例模式
  * @Author: dushiyu
  * @Date: 2019-09-06 15:53
  * @Version 1.0
@@ -14,6 +14,7 @@ import org.springframework.util.ObjectUtils;
 public class SingletonEnumDemo3 {
 
     private SingletonEnumDemo3(){}
+
     private  static SingletonEnumDemo3 singletonDemo3;
 
     public SingletonEnumDemo3 getInstance(){

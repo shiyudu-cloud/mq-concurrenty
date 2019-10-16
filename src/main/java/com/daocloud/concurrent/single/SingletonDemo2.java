@@ -1,12 +1,11 @@
 package com.daocloud.concurrent.single;
 
-import com.daocloud.concurrent.annotation.NotThreadSafe;
 import com.daocloud.concurrent.annotation.ThreadSafe;
-import org.springframework.util.ObjectUtils;
 
 /**
  *
  * 饿汉式
+ * 单例模式 是在类状态的时候创建 能够保证线程安全
  * @Author: dushiyu
  * @Date: 2019-09-06 15:53
  * @Version 1.0
